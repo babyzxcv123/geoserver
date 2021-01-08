@@ -30,6 +30,8 @@ GeoServer uses [Apache Maven](http://maven.apache.org/) for a build system. To
 build the application run maven from the ```src``` directory.
 
     mvn clean install
+    或者 
+    mvn -DskipTests clean install
 
 See the [developer guide](http://docs.geoserver.org/latest/en/developer/) 
 for more details.
